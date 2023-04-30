@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" type="module"></script>
+</head>
+
+<body>
+    <div style="display: flex; width: 100%;">
+        <div id="main">
+            <div id="game-board"></div>
+        </div>
+        <div id="side">
+            <h1>¡2048!</h1>
+            <label>Difficulty</label>
+            <select id="diff-select">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+            <br />
+            <br />
+            <button id="bot">Bot</button>
+            <br />
+            <br />
+            Score: <span id="score">0</span>
+            <br />
+            <br />
+            Best score: <span id="best-score">0</span>
+        </div>
+    </div>
+</body>
+
+</html>
